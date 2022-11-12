@@ -701,6 +701,7 @@ var Renderer = (function(){
             
             if(world.points>30){
             console.log("mera name hai khan");
+            location.replace("./clue.html")
             }
             Renderer.drawText("Score: " + world.points,10,396);
             Renderer.drawText("Time: " + Math.floor(game.endGameAlarm.getRemaining())/1000,10,384);
