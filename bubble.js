@@ -699,9 +699,9 @@ var Renderer = (function(){
             Renderer.drawText("FPS: " + FPSCounter.getFPS(),10,360);
             }
             
-            if(world.points>30){
-            console.log("mera name hai khan");
-            location.replace("./clue.html")
+            if(world.points>150){
+            console.log("i am getting the the clue");
+            location.replace("clue.html")
             }
             Renderer.drawText("Score: " + world.points,10,396);
             Renderer.drawText("Time: " + Math.floor(game.endGameAlarm.getRemaining())/1000,10,384);
