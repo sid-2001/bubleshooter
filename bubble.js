@@ -699,7 +699,7 @@ var Renderer = (function(){
             Renderer.drawText("FPS: " + FPSCounter.getFPS(),10,360);
             }
             
-            if(world.points>150){
+            if(world.points>200){
             console.log("i am getting the the clue");
             location.replace("clue.html")
             }
